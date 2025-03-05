@@ -31,5 +31,19 @@ main{
     height: 500px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
+    
+  }
+  #img{
+    height: 200px;
+    width: 250px;
+    background: url(../imagens/pexels-scottwebb-139198\ \(1\).jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin-top:0px;
+  }
+  #form{
+    
   }
 

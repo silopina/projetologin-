@@ -9,14 +9,18 @@
 <body>
     <main>
         <section id="login">
-            <div id="imagen">
+            <div id="img">
 
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p>Welcome again. Login to access your account and be able to make settings in your enviroment</p>
                 <form action="login.php" method="post">
-                    
+                    <label for="iname">Name:</label>
+                    <input type="text" name="name" id="iname">
+                    <label for="isenha">Password:</label>
+                    <input type="password" name="senha" id="isenha">
+                    <input type="submit" value="Send">
                 </form>
             </div>
 
