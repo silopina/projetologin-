@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap">
+
 </head>
 <body>
     <main>
@@ -16,11 +19,20 @@
                 <h1>Login</h1>
                 <p>Welcome again. Login to access your account and be able to make settings in your enviroment</p>
                 <form action="login.php" method="post">
-                    <label for="iname">Name:</label>
-                    <input type="text" name="name" id="iname">
-                    <label for="isenha">Password:</label>
-                    <input type="password" name="senha" id="isenha">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <input type="email" name="email" id="iemail" placeholder="Seu-email" autocomplete="email" required maxlength="30">
+                    <label for="iemail">Login</label>
+                    <span class="material-symbols-outlined">
+                        key
+                    </span>
+                    <input type="password" name="senha" id="isenha" placeholder="Sua-senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    <label for="isenha">Password</label>
                     <input type="submit" value="Send">
+                    <a href="esqueci.html">E squeci a senha <span class="material-symbols-outlined">
+                        mail
+                    </span></a>
                 </form>
             </div>
 
