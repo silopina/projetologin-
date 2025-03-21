@@ -77,6 +77,20 @@ main{
     border-radius: 7px;
     text-align: center;
   }
+  span.material-symbols-outlined {
+    font-size: 1.2em;
+  }
+  form>a> span.material-symbols-outlined {
+    font-size: 0.8em;
+  }
+  form>input[type=email] {
+    border: 1px solid black;
+  }
+form>input[type=password]{
+  border: 1px solid black;
+}
+
+
   
   form>a:hover{
     background-color: rgba(17, 191, 17, 0.801);
