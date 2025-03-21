@@ -20,13 +20,10 @@ Grandes telas: acima de 1200px*/
     #img{
         float: left;
         height: 100%;
-        width: 35%;
+        width: 50%;
         border-radius: 20px 0px 0px 20px;
     }
-    #form{
-        width: 60%;
-        padding: 20px;
-    }
+   
 
     
 }

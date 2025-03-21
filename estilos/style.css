@@ -28,7 +28,7 @@ main{
     top: 50%;
     left: 50%;
     background-color: white;
-    width: 250px;
+    width: 290px;
     height: 500px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
@@ -38,7 +38,7 @@ main{
   }
   #img{
     height: 200px;
-    width: 250px;
+    width: 100%;
     background: url(../imagens/pexels-scottwebb-139198\ \(1\).jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -49,4 +49,35 @@ main{
   #form{
     display: block;
     padding: 10px;
+  }
+  form>input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgba(22, 128, 22, 0.733);
+    color: #ffffff;
+    border-radius: 7px;
+  }
+  form>input[type=submit]:hover{
+    background-color: rgba(16, 205, 16, 0.806);   
+  }
+  .botao{
+    font-size: 1.1em;
+
+  }
+  form>a{
+    display: block;
+    border: 1px solid rgb(23, 186, 23);
+    padding: 10px;
+    margin-top: 7px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    text-align: center;
+  }
+  
+  form>a:hover{
+    background-color: rgba(17, 191, 17, 0.801);
   }
