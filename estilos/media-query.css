@@ -14,13 +14,13 @@ Grandes telas: acima de 1200px*/
     }
     section#login{
         display: flex;
+        order: 1;
         width: 90vw;
-        height: 350px;
+        height: 290px;
     }
-    #img{
-        float: left;
+    div#img{
         height: 100%;
-        width: 50%;
+        width: 40%;
         border-radius: 20px 0px 0px 20px;
     }
    
@@ -37,13 +37,13 @@ Grandes telas: acima de 1200px*/
         flex-direction: row;
         width: 90vw;
         max-width: 1000px;
-        height: 400px;
+        height: 350px;
     }
     #img{
-        float: right;
+        order: 1;
         height: 100%;
         width: 45%;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 20px 0px;
     }
     
 }

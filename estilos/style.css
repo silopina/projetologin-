@@ -28,8 +28,8 @@ main{
     top: 50%;
     left: 50%;
     background-color: white;
-    width: 290px;
-    height: 500px;
+    width: 260px;
+    height: 515px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s ;
@@ -83,15 +83,45 @@ main{
   form>a> span.material-symbols-outlined {
     font-size: 0.8em;
   }
-  form>input[type=email] {
-    border: 1px solid black;
+ 
+  form>div.campo{
+    display: block;
+    background-color: #5f2c82;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 8px;
+    border: 2px solid #5f2c82;
   }
-form>input[type=password]{
-  border: 1px solid black;
-}
-
-
+  div.campo>label{
+    display: none;
+  }
   
   form>a:hover{
     background-color: rgba(17, 191, 17, 0.801);
   }
+   div.campo>span{
+  
+    color: white;
+    font-size: 1.4em;
+    width: 40px;
+    padding: 10px;
+    
+    height: 39px;
+
+   }
+   div.campo>input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    width: calc(100% - 44.9px);
+    padding: 6px;
+    transform: translate(1px, -7px);
+   }
+   div.campo > input:focus-within {
+    background-color: white;
+}
+
+
